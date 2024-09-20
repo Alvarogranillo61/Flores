@@ -12,6 +12,18 @@
     --petal-color: radial-gradient(circle, #ff5e00, #ffbb00);
 }
 
+.reproductor span {
+    background-color: #f00; /* Cambia este valor por el color que desees */
+    color: #fff; /* Cambia el color del texto */
+    padding: 10px 20px;
+    border-radius: 5px; /* Opcional: para esquinas redondeadas */
+    cursor: pointer; /* Añade un cursor de mano para indicar que es interactivo */
+  }
+  
+  .reproductor span:hover {
+    background-color: #c00; /* Color cuando pasas el ratón por encima */
+  }
+
 body{
     background-image: var(--color-bg);
     min-height: 100vh;
@@ -136,6 +148,9 @@ body{
     transform: translateX(-50%) rotate(150deg);
 }
 .flower_petal-12{
+    transform: translateX(-50%) rotate(180deg);
+}
+.flower_petal-13{
     transform: translateX(-50%) rotate(180deg);
 }
 
@@ -377,4 +392,7 @@ body{
       opacity: 0;
       filter: blur(1vmin);
     }
+
+
+    
 }
